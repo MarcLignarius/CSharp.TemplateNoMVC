@@ -3,9 +3,13 @@ using System.Collections.Generic;
 
 namespace ProjectName.Models
 {
-  public class ClassName
+  public class Program
   {
-    // properties, constructors, methods, etc. go here
+
+    public static void Main()
+    {
+
     }
+
   }
 }

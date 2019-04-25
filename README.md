@@ -1,17 +1,23 @@
-# _{Application Name}_
+# _C# Project Setup_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Structure and files for Epicodus C# Week 1 Projects, last updated 04/24/2019_
 
 #### By _**Marc Davies**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_All the files necessary to create an Epicodus C# Week 1 Project._
 
 ## Setup/Installation Requirements
 
 * _Clone from GitHub_
-* _In your terminal, $mono ProjectName.exe_
+* _Rename mstesttemplate to directory name of your choice_
+* _$cd into the directory and $atom all_
+* _Collapse all the directories and change all "ProjectNamexxx" to name of your choice (ie. ToDoListxxx)_
+* _Change all "ClassNamexxx" to name of your choice (ie. Tasksxxx)_
+* _Go through each individual file and Alt + F "ProjectName", replace all with name of your choice_
+* _Alt + F "ClassName", replace all with name of your choice_
+* _Back in your terminal, $cd into the two main subdirectories and $dotnet restore_
 
 ## Specs
 
