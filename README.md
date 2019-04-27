@@ -14,11 +14,17 @@ _All the files necessary to create an Epicodus C# Week 1 Project._
 * _$cd mstesttemplate_
 * _$rm -rf .git (this will remove the commits prior to cloning the repository)_
 * _$git init to initialize a new Git repository_
-* _$cd ProjectName/Models $dotnet restore_
-* _Navigate back to the main directory ($cd .. $cd ..)_
-* _$cd ProjectName.Tests/ModelTests $dotnet restore_
-* _(Optional) Rename each file to your current project name_
-* _(Optional) Rename namespaces and class names in Program.cs, ClassName.cs and ClassNameTests.cs_
+* _(Optional) $atom . and rename each file to your current project name (see note below)_
+* _(Optional) Rename namespaces and class names in the .cs files_
+* _$cd ProjectName (or new name if renamed)_
+* _$dotnet restore_
+* _Navigate back to the main directory ($cd ..)_
+* _$cd ProjectName.Tests (or new name if renamed)_
+* _$dotnet restore_
+
+_And you're done! You can commit this to a repository of your choice as your initial commit.
+
+_Note: If you don't rename the files before $dotnet restore, all the files created will use ProjectName. Renaming after $dotnet restore is a tedious and error-prone task._
 
 ## Specs
 
