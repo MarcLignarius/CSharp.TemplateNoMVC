@@ -22,7 +22,7 @@ _All the files necessary to create an Epicodus C# Week 1 Project._
 * _$cd ProjectName.Tests (or new name if renamed)_
 * _$dotnet restore_
 
-_And you're done! You can commit this to a repository of your choice as your initial commit.
+_And you're done! You can commit this to a repository of your choice as your initial commit._
 
 _Note: If you don't rename the files before $dotnet restore, all the files created will use ProjectName. Renaming after $dotnet restore is a tedious and error-prone task._
 
