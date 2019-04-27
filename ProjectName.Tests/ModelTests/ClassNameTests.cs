@@ -3,7 +3,7 @@ using ProjectName.Models;
 using System;
 using System.Collections.Generic;
 
-namespace ProjectName.Tests;
+namespace ProjectName.Tests
 {
   [TestClass]
   public class ClassNameTest
