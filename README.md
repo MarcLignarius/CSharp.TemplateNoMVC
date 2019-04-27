@@ -11,13 +11,13 @@ _All the files necessary to create an Epicodus C# Week 1 Project._
 ## Setup/Installation Requirements
 
 * _Clone from GitHub_
-* _Rename mstesttemplate to directory name of your choice_
-* _$cd into the directory and $atom all_
-* _Collapse all the directories and change all "ProjectNamexxx" to name of your choice (ie. ToDoListxxx)_
-* _Change all "ClassNamexxx" to name of your choice (ie. Tasksxxx)_
-* _Go through each individual file and Alt + F "ProjectName", replace all with name of your choice_
-* _Alt + F "ClassName", replace all with name of your choice_
-* _Back in your terminal, $cd into the two main subdirectories and $dotnet restore_
+* _$cd mstesttemplate_
+* _$rm -rf .git (this will remove the commits prior to cloning the repository)_
+* _$cd ProjectName/Models $dotnet restore_
+* _Navigate back to the main directory ($cd .. $cd ..)_
+* _$cd ProjectName.Tests/ModelTests $dotnet restore_
+* _(Optional) Rename each file to your current project name (ie.ToDoList)_
+* _(Optional) Rename namespaces and class names in Program.cs, ClassName.cs and ClassNameTests.cs_
 
 ## Specs
 
